@@ -1,4 +1,6 @@
-public class Cuboid extends Rectangle{
+package Shapes;
+
+public class Cuboid extends Rectangle {
     double height;
 
     public Cuboid(double width, double length, double height){

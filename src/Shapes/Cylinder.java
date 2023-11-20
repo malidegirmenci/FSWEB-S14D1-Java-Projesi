@@ -1,4 +1,8 @@
-public class Cylinder extends Circle{
+package Shapes;
+
+import Shapes.Circle;
+
+public class Cylinder extends Circle {
     double height;
     public Cylinder(double radius, double height){
         super(radius);

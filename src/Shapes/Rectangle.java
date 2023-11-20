@@ -1,3 +1,5 @@
+package Shapes;
+
 public class Rectangle {
     double width;
     double length;
