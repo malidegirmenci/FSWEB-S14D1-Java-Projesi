@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Circle circle = new Circle(12);
+        System.out.println("Area: "+ circle.getArea());
     }
 }
