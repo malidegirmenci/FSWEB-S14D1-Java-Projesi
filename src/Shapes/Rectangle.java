@@ -1,8 +1,8 @@
 package Shapes;
 
 public class Rectangle {
-    double width;
-    double length;
+    private double width;
+    private double length;
 
     public Rectangle(double width, double length){
         this.width = Helper.checkValue(width);

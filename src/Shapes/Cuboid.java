@@ -1,7 +1,7 @@
 package Shapes;
 
 public class Cuboid extends Rectangle {
-    double height;
+    private double height;
 
     public Cuboid(double width, double length, double height){
         super(width, length);
