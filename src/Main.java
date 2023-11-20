@@ -1,8 +1,3 @@
-import Employee.HRManager;
-import Employee.JuniorDeveloper;
-import Employee.MidDeveloper;
-import Employee.SeniorDeveloper;
-
 public class Main {
     public static void main(String[] args) {
         /*  CIRCLE AND CYLINDER CLASSES TESTS PASSED
@@ -48,13 +43,15 @@ public class Main {
 
          */
 
-        JuniorDeveloper jrDev = new JuniorDeveloper("1","Mahmut Ekrem", 1231.32);
-        MidDeveloper midDev = new MidDeveloper("1","Ali Veli",123.32);
-        SeniorDeveloper seniorDev = new SeniorDeveloper("1", "Cemal Cemil",121.2);
-        HRManager hrMng = new HRManager("1", "Mehmet Ali",12312.5);
-        hrMng.addEmployee(jrDev,1);
-        hrMng.addEmployee(midDev,5);
-        hrMng.addEmployee(seniorDev,-1);
-        hrMng.addEmployee(jrDev,1);
+        /* EMPLOYEE AND SUBCLASSES TEST PASSED
+            JuniorDeveloper jrDev = new JuniorDeveloper("1","Mahmut Ekrem", 1231.32);
+            MidDeveloper midDev = new MidDeveloper("1","Ali Veli",123.32);
+            SeniorDeveloper seniorDev = new SeniorDeveloper("1", "Cemal Cemil",121.2);
+            HRManager hrMng = new HRManager("1", "Mehmet Ali",12312.5);
+            hrMng.addEmployee(jrDev,1);
+            hrMng.addEmployee(midDev,5);
+            hrMng.addEmployee(seniorDev,-1);
+            hrMng.addEmployee(jrDev,1);
+         */
     }
 }
