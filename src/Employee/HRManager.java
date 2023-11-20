@@ -3,9 +3,9 @@ package Employee;
 import java.util.Arrays;
 
 public class HRManager extends Employee{
-    JuniorDeveloper[] jrDevs = new JuniorDeveloper[5];
-    MidDeveloper[] midDevs = new MidDeveloper[5];
-    SeniorDeveloper[] seniorDevs = new SeniorDeveloper[5];
+    private JuniorDeveloper[] jrDevs = new JuniorDeveloper[5];
+    private MidDeveloper[] midDevs = new MidDeveloper[5];
+    private SeniorDeveloper[] seniorDevs = new SeniorDeveloper[5];
 
     public HRManager(String id, String name, Double salary) {
         super(id, name, salary);
@@ -24,7 +24,7 @@ public class HRManager extends Employee{
         } else if (jrDevs[index] != null) {
             System.out.println("Index of array is full. You can not add new value.");
         }else{
-            System.out.println(jrDev.name+" has been added to list");
+            System.out.println(jrDev.getName()+" has been added to list");
             jrDevs[index] = jrDev;
         }
     }
@@ -36,7 +36,7 @@ public class HRManager extends Employee{
         } else if (midDevs[index] != null) {
             System.out.println("Index of array is full. You can not add new value.");
         }else{
-            System.out.println(midDev.name+" has been added to list");
+            System.out.println(midDev.getName()+" has been added to list");
             midDevs[index] = midDev;
         }
     }
@@ -49,7 +49,7 @@ public class HRManager extends Employee{
         } else if (seniorDevs[index] != null) {
             System.out.println("Index of array is full. You can not add new value.");
         }else{
-            System.out.println(seniorDev.name+" has been added to list");
+            System.out.println(seniorDev.getName()+" has been added to list");
             seniorDevs[index] = seniorDev;
         }
     }

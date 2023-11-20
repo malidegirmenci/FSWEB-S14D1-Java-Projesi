@@ -1,9 +1,9 @@
 package Employee;
 
 public class Employee {
-    String id;
-    String name;
-    Double salary;
+    private String id;
+    private String name;
+    private Double salary;
 
     public Employee(String id, String name, Double salary) {
         this.id = id;
@@ -36,6 +36,6 @@ public class Employee {
     }
 
     public void work(){
-        System.out.println("Employee.Employee starts to working.");
+        System.out.println("Employee starts to working.");
     }
 }

@@ -1,7 +1,7 @@
 package Shapes;
 
 public class Circle {
-    double radius;
+    private double radius;
 
     public Circle(double radius){
         this.radius = Helper.checkValue(radius);
